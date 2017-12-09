@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0; //zero out default margin
+  padding: 0; //zero out default padding
+  box-sizing: inherit;
+}
+
+html {
+  //This defines default what 1rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box; //padding included in specified width,height
+}
